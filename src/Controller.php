@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AST;
+namespace Xav;
 
 
 class Controller

@@ -1,9 +1,9 @@
 {
-  "name": "AST-DB",
+  "name": "Xav-Router",
   "type": "project",
   "autoload": {
     "psr-4": {
-      "AST\\": "src/"
+      "Xav\\": "src/"
     },
     "classmap": ["src/"]
   }

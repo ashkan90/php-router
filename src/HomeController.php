@@ -1,18 +1,14 @@
 <?php
 
 
-namespace AST;
+namespace Xav;
 
 
 class HomeController extends Controller
 {
-    public function __construct()
+    public function index($catch, $me, $to)
     {
-        $this->index();
-    }
-
-    public function index()
-    {
+        dd($catch, $me, $to);
         return render('home');
     }
 

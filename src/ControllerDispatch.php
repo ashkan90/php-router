@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AST;
+namespace Xav;
 
 
 class ControllerDispatch
@@ -14,7 +14,7 @@ class ControllerDispatch
     {
     }
 
-    public function dispatch(RR $route, $controller, $method)
+    public function dispatch(Route $route, $controller, $method)
     {
         $args = [];
 

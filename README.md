@@ -7,12 +7,14 @@ değiştirmek için,<br>
 Parametresiz **callback**'ler ve parametresiz **Controller**
 fonksiyonları şu an aktif. Örnekleri ise;
 ## Controller:<br>
-``\AST\Router::get('/home', 'HomeController:index');``<br>
+``\Xav\Router::get('/home', 'HomeController:index');``<br>
 > Controller ismi ve fonksiyon isimleri **:** ile ayrılmakta.
 ## Callback:<br>
-``\AST\Router::get('/welcome', function () {
-      return "You're welcome";
-  });``
+``
+\Xav\Router::get('/welcome', function () {
+    return "welcome";
+});
+``
   
   
   

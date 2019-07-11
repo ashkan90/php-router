@@ -1,10 +1,10 @@
 <?php
 
 
-namespace AST;
+namespace Xav;
 
 
-class Router extends Facade
+class Router
 {
     protected static $real;
 
@@ -15,7 +15,7 @@ class Router extends Facade
      */
     public static function get(string $pattern, $function)
     {
-        self::$real = new RR($pattern, $function, __FUNCTION__);
+        self::$real = new Route($pattern, $function, __FUNCTION__);
 
         echo self::$real->run();
     }
