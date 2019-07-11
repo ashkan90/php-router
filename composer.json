@@ -6,8 +6,5 @@
       "AST\\": "src/"
     },
     "classmap": ["src/"]
-  },
-  "require": {
-    "digitalnature/php-ref": "dev-master"
   }
 }
